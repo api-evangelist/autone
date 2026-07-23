@@ -1,8 +1,15 @@
 aid: autone
 name: autone
-description: 'autone is a company surfaced as a portfolio company of general-catalyst, seedcamp, speedinvest
-  and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'autone is an AI-powered inventory management platform for retail brands, blending
+  machine-driven recommendations with merchandising expertise and a brand''s own data to optimize
+  stock decisions across buying, reordering, replenishment, and rebalancing. Its modules — Buy,
+  Reorder, Replenish, Rebalance, Assortment & Initial Allocation, and Insights — help fashion,
+  beauty, furniture, and sports retailers reduce stockouts and overstock, redistribute inventory
+  across locations, and improve margins. Founded by supply-chain operators from luxury fashion
+  houses (Alexander McQueen, Victoria Beckham, Givenchy), autone is backed by General Catalyst,
+  Seedcamp, and Speedinvest. No public developer API or documentation is published at this time;
+  the platform is delivered as an enterprise SaaS. This profile originated as a VC-portfolio lead
+  and has been enriched with verifiable company identity and domain-security signals.'
 url: https://raw.githubusercontent.com/api-evangelist/autone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +19,30 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://pelostudio-storyblok-assets.b-cdn.net/f/255335/98x98/faa8feb13e/manifesto-autone.png
 tags:
 - Company
 - Enterprise
+- Retail
+- Inventory Management
+- Supply Chain
+- Artificial Intelligence
+- Merchandising
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/autone-domain-security.yml
 - type: Website
-  url: http://autone.io
+  url: https://autone.io
+- type: Blog
+  url: https://autone.io/blog/
+- type: Support
+  url: https://autone.io/contact/
+- type: TermsOfService
+  url: https://autone.io/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://autone.io/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
